@@ -17,4 +17,9 @@ lsb_release -a
 sudo usermod -a -G sudo bhushanp
 
 // To determine the size of a file
-	ls -lh file_name
+ls -lh file_name
+
+// To configure git for proxy
+git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080
+git config --global https.proxy https://proxyuser:proxypwd@proxy.server.com:8080
+
