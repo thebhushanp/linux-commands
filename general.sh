@@ -37,4 +37,3 @@ git config --global https.proxy https://proxyuser:proxypwd@proxy.server.com:8080
     Enter the location where you want to put the keys and passphrase
  3. Copy the Public Key to host's system (it will get saved in that system's authorize_keys file.)
     ssh-copy-id user@123.45.56.78
- 4. 
