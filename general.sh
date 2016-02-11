@@ -29,3 +29,12 @@ git config --global https.proxy https://proxyuser:proxypwd@proxy.server.com:8080
   $1, $2 ... $n   Refers to a numbered argument to the script
   $0  Refers to the name of the script itself.
   $#  Refers to the number of arguments specified on a command line. 
+
+// RSA
+ 1. Create the RSA Key Pair
+    ssh-keygen -t rsa
+ 2. Store the Keys and Passphrase
+    Enter the location where you want to put the keys and passphrase
+ 3. Copy the Public Key to host's system (it will get saved in that system's authorize_keys file.)
+    ssh-copy-id user@123.45.56.78
+ 4. 
